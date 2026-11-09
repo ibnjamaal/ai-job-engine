@@ -1,0 +1,12 @@
+# report	pdf	html	format	date	kind - written by generate-pdf.mjs, do not edit
+	output/pdf-smoke-test.pdf	templates/cv-template.html	letter	2026-11-01	cv
+004	output/cv-candidate-004-netomi-2026-11-01.pdf	output/cv-candidate-004-netomi-2026-11-01.html	letter	2026-11-01	cv
+005	output/cv-candidate-005-porsche-middle-east-and-africa-fze-2026-11-01.pdf	output/cv-candidate-005-porsche-middle-east-and-africa-fze-2026-11-01.html	letter	2026-11-01	cv
+006	output/cv-candidate-006-talabat-2026-11-02.pdf	output/cv-candidate-006-talabat-2026-11-02.html	letter	2026-11-02	cv
+007	output/cv-candidate-007-huda-beauty-2026-11-02.pdf	output/cv-candidate-007-huda-beauty-2026-11-02.html	letter	2026-11-02	cv
+008	output/cv-candidate-008-roboflow-2026-11-02.pdf	output/cv-candidate-008-roboflow-2026-11-02.html	letter	2026-11-02	cv
+009	output/cv-candidate-009-talent-bridge-2026-11-02.pdf	output/cv-candidate-009-talent-bridge-2026-11-02.html	letter	2026-11-02	cv
+023	output/cv-candidate-023-techmantra-gulf-dmcc-it-manager-2026-11-05.pdf	output/cv-candidate-023-techmantra-gulf-dmcc-it-manager-2026-11-05.html	letter	2026-11-05	cv
+020	output/cv-candidate-020-emirates-group-it-senior-ops-wintel-2026-11-05.pdf	output/cv-candidate-020-emirates-group-it-senior-ops-wintel-2026-11-05.html	letter	2026-11-05	cv
+	output/xtra-senior-ai-developer-vibe-coder-cover.pdf	output/cover-payload-xtra.json	letter	2026-11-08	cover
+032	output/cv-rashid-jamal-xtra-2026-11-08.pdf	output/cv-candidate-032-xtra-senior-ai-developer-vibe-coder-dubai-2026-11-08.html	a4	2026-11-08	cv

@@ -1,0 +1,2 @@
+num	date	company	role	status	score	pdf	report	notes
+11	2026-11-03	Hilton	IT Manager	Evaluated	3.5/5	❌	[011](reports/011-hilton-2026-11-03.md)	OpenAI-compatible evaluation (halogen-qwen3.8-flash-next)

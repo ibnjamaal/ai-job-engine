@@ -1,0 +1,155 @@
+# Portal Scanner Configuration — Rashid Jamal (ITOps, Dubai/GCC/Remote)
+# Copied from templates/portals.example.yml structure, retargeted for IT Operations roles.
+# Strategy (4 levels):
+#   0. Local parser → per-company parser: script for SSR/static career pages (zero-token)
+#   1. Playwright → careers_url of each company (real-time, reliable)
+#   2. HTTP JSON (WebFetch) → per-company api: on tracked_companies
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+
+title_filter:
+  positive:
+    - "IT Operations"
+    - "IT Operation"
+    - "Systems Administrator"
+    - "System Administrator"
+    - "IT Infrastructure"
+    - "Workplace Technology"
+    - "Workplace IT"
+    - "Collaboration Engineer"
+    - "End-User Computing"
+    - "Endpoint Manager"
+    - "Modern Workplace"
+    - "IT Manager"
+    - "IT Team Lead"
+    - "Technical Services"
+    - "Client Technology"
+    - "Enterprise IT"
+    - "Cloud Workplace"
+    - "Identity and Access"
+    - "IAM Engineer"
+    - "Device Management"
+    - "MDM"
+    - "IT Support Lead"
+    - "Senior IT Support"
+    - "Desktop Support Lead"
+    - "IT Specialist"
+    - "Infrastructure Engineer"
+    - "DevOps"
+    - "Site Reliability"
+    - "SRE"
+    - "Platform Engineer"
+    - "Cloud Engineer"
+    - "Cloud Infrastructure"
+    - "AI Engineer"
+    - "AI Operations"
+    - "MLOps"
+    - "Technical Lead"
+    - "Engineering Manager"
+    - "Technology Manager"
+    - "IT Infrastructure Manager"
+    - "IT Operations Manager"
+    - "Head of IT"
+    - "IT Supervisor"
+    - "Management Trainee"
+    - "Leadership Development Program"
+    - "Graduate Technology Program"
+    - "Automation Engineer"
+    - "n8n"
+    - "Business Systems"
+    - "Internal Tools"
+  negative:
+    # NOTE: Junior/Graduate/Fresher are intentionally NOT banned globally —
+    # junior/career-change roles are acceptable for AI/DevOps/Leadership tracks
+    # (see modes/_profile.md level flexibility). Junior ITOps roles that slip
+    # through will score low against the 15-year profile and be skipped.
+    - "Help Desk Tier 1"
+    - "Call Center"
+    - "Customer Service"
+    - "Sales"
+    - "Marketing"
+    - "Recruiter"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+    - "NOC Engineer"
+    - "Field Technician"
+    - "CCTV"
+    - "Access Control Guard"
+
+seniority_boost:
+  - "Senior"
+  - "Lead"
+  - "Head"
+  - "Manager"
+  - "Principal"
+  - "Specialist"
+
+search_queries:
+  - name: "LinkedIn/Indeed-style — ITOps Dubai"
+    query: '("IT Operations Engineer" OR "Senior System Administrator" OR "Workplace IT Lead") "Dubai" OR "UAE"'
+    enabled: true
+  - name: "Greenhouse — ITOps / Workplace / Business Systems"
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "IT Operations" OR "Workplace Technology" OR "Business Systems" OR "Modern Workplace"'
+    enabled: true
+  - name: "Lever — ITOps / IT Manager"
+    query: 'site:jobs.lever.co "IT Operations" OR "IT Manager" OR "Systems Administrator" OR "Workplace IT"'
+    enabled: true
+  - name: "Ashby — IT Infrastructure / Automation"
+    query: 'site:jobs.ashbyhq.com "IT Operations" OR "IT Infrastructure" OR "Automation Engineer" OR "Business Systems"'
+    enabled: true
+  - name: "Gulf boards — Senior IT (Dubai/GCC)"
+    query: 'site:bayt.com OR site:gulftalent.com "IT Operations" OR "Senior IT" OR "System Administrator" Dubai OR "Saudi Arabia" OR Qatar OR "Abu Dhabi"'
+    enabled: true
+  - name: "LinkedIn — Senior ITOps Gulf"
+    query: 'site:linkedin.com/jobs "IT Operations" OR "Workplace Technology" OR "IT Manager" Dubai OR UAE OR Riyadh'
+    enabled: true
+  - name: "Remote — Workplace/Collab IT (worldwide)"
+    query: '("Workplace IT Lead" OR "Collaboration Engineer" OR "IT Operations Engineer") remote EMEA OR worldwide'
+    enabled: true
+  - name: "Remote — IT Automation / n8n"
+    query: '("IT Automation" OR "n8n" OR "workflow automation engineer") remote "IT"'
+    enabled: true
+  - name: "Leadership — IT Manager / Head of IT (Dubai/GCC)"
+    query: '("IT Manager" OR "Head of IT" OR "IT Operations Manager" OR "Technology Manager") Dubai OR UAE OR Riyadh OR Doha OR "Saudi Arabia"'
+    enabled: true
+  - name: "Leadership — ATS portals (Greenhouse/Lever/Ashby)"
+    query: 'site:boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com "IT Manager" OR "Head of IT" OR "Engineering Manager, IT" OR "IT Operations Manager"'
+    enabled: true
+  - name: "DevOps / Cloud Infra — Dubai/GCC"
+    query: '("DevOps Engineer" OR "Cloud Infrastructure Engineer" OR "Site Reliability Engineer") Dubai OR UAE OR Riyadh OR remote GCC'
+    enabled: true
+  - name: "AI / MLOps — remote + Gulf"
+    query: '("AI Engineer" OR "MLOps" OR "AI Operations" OR "LLM Ops") remote OR Dubai OR UAE'
+    enabled: true
+  - name: "Dubizzle — IT jobs Dubai"
+    query: 'site:dubizzle.com/en/it-jobs OR dubizzle "IT" jobs Dubai "IT Manager" OR "IT Support" OR "System Administrator" OR "IT Operations"'
+    enabled: true
+  - name: "Dubizzle classifieds — IT Manager / IT Engineer"
+    query: 'dubizzle.com "IT Manager" OR "IT Engineer" OR "IT Administrator" Dubai jobs'
+    enabled: true
+  - name: "Other classifieds / local boards — Gulf IT"
+    query: 'finddubaijob OR dubaicraigslist OR "gulf list" OR bayt classifieds "IT Manager" OR "IT Operations" OR "System Administrator" Dubai OR UAE'
+    enabled: true
+  - name: "Reddit — Dubai/GCC job subreddits"
+    query: 'site:reddit.com/r/dubaijobs OR site:reddit.com/r/UAEJobs OR site:reddit.com/r/gulfjobs "IT" hiring OR job'
+    enabled: true
+  - name: "Reddit — general job subreddits (IT/DevOps/AI)"
+    query: 'site:reddit.com/r/jobbit OR site:reddit.com/r/forhire OR site:reddit.com/r/remotejs "IT Operations" OR "IT Manager" OR "DevOps" OR "SysAdmin"'
+    enabled: true
+  - name: "Reddit — search IT jobs Dubai/UAE"
+    query: 'reddit.com "IT Manager" OR "IT Operations" Dubai OR UAE job hiring 2026'
+    enabled: true
+
+# Tracked companies: add verified careers URLs here as the campaign matures.
+# Prefer branded careers pages (✅ https://careers.example.com) over raw ATS URLs.
+# None pre-filled — nothing invented. Ask the agent to research and add companies
+# you actually want (e.g. target employers in Dubai/GCC) with verified URLs.
+tracked_companies: []

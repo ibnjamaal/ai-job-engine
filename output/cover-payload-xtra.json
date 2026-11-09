@@ -1,0 +1,38 @@
+{
+  "candidate": {
+    "name": "Rashid Jamal",
+    "email": "rashid@ibnjamaal.me",
+    "phone": "+971 56 717 0775",
+    "location": "Dubai, United Arab Emirates",
+    "linkedin": "linkedin.com/in/IbnJamaal",
+    "credentials": ["M.Sc. Data Science"]
+  },
+  "letter": {
+    "role_title": "Senior AI Developer / Full-Stack Vibe Coder",
+    "company": "XTRA",
+    "city": "Dubai",
+    "date": "2026-11-08",
+    "opening": "Your posting says you care strictly about what a person can build, and that is the frame I want to be judged on. I work the way you describe vibe coding: AI-assisted, fast, and aimed at shipped products rather than unfinished experiments.",
+    "profile_intro": "For 15+ years I have run enterprise technology in Dubai and Jeddah, currently as an IT Operations Engineer at myZoi Financial Inclusion Technologies, covering cloud SaaS stacks, identity automation, and deployments across AWS and Docker. Alongside the day job I run a local AI lab on my own hardware: Llama.cpp runtimes, RAG pipelines, multi-agent frameworks, and n8n automation wired into content engines that run unattended.",
+    "achievements": [
+      {"lead": "Local AI infrastructure, hardened and running", "impact": "deployed a dual-boot Ubuntu server with TPM-backed encryption and Secure Boot that hosts Llama.cpp runtimes and RAG pipelines on dedicated GPU hardware, with models sourced from the Hugging Face Hub."},
+      {"lead": "Agents doing real work", "impact": "built automated AI content engines on the Hermes and OpenClaw agent frameworks with multiple n8n instances under Docker Compose."},
+      {"lead": "AI tooling governed at enterprise scale", "impact": "administer Claude and Cursor AI access, licensing, and security compliance for a fintech company that ships AI-assisted work daily."},
+      {"lead": "Media generation hands-on", "impact": "run ComfyUI workflows for image and video generation, including an LTX-Video pipeline on RTX 5060 Ti hardware."},
+      {"lead": "Websites delivered end to end", "impact": "build client sites on WordPress and custom HTML, CSS, PHP, and JavaScript, and handle the domains, DNS records, SSL, and hosting myself, with a live portfolio at ibnjamaal.me."}
+    ],
+    "problems_section": "XTRA runs a brand-led operation where landing pages, product content, and campaign automations need to ship at marketing speed. My opening move would be to map the manual workflows across your web and content stack, then ship one visible automation end to end in the first weeks: a scraper, a data pipeline, or an AI-assisted content workflow. From there I would take ownership of the landing pages, integrations, and the hosting layer so releases stop waiting on outside help.",
+    "closing": "I am based in Dubai, fluent in English and Arabic, with a 90-day notice period that can be discussed. I would welcome the chance to demo what I have built.",
+    "language_closing": null
+  },
+  "user_inputs": [
+    "A: Why this role: the no-degree, what-you-can-build stance matches how I actually work; AI tooling is the core of the job, not a bonus.",
+    "B: Problem to solve: ship XTRA's web apps, landing pages, and marketing automations fast and own them end to end.",
+    "C: Approach: map manual workflows, ship one visible automation end to end in the first weeks, then own landing pages and integrations.",
+    "D: Tone: mirror the JD, direct and practical.",
+    "Gap title: address briefly as a career-changer builder with 15+ years enterprise technology plus working web design and development knowledge.",
+    "Gap tools: ComfyUI and Hugging Face are real working knowledge from my local setup, ComfyUI Desktop on RTX 5060 Ti and Hugging Face model downloads for local LLMs.",
+    "Notice period: 90 days, discussable."
+  ],
+  "output_path": "output/xtra-senior-ai-developer-vibe-coder-cover.pdf"
+}

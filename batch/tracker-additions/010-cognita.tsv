@@ -1,0 +1,2 @@
+num	date	company	role	status	score	pdf	report	notes
+10	2026-11-03	Cognita	Head of IT Service Management	Evaluated	2.8/5	❌	[010](reports/010-cognita-2026-11-03.md)	OpenAI-compatible evaluation (halogen-qwen3.8-flash-next)

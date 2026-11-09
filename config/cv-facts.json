@@ -1,0 +1,10 @@
+{
+  "allow_metrics": [],
+  "allow_facts": [
+    "jaki garments factory",
+    "JAKI Ready-Made Garments Factory",
+    "llm"
+  ],
+  "forbidden_phrases": [],
+  "warn_phrases": []
+}

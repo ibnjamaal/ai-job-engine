@@ -1,0 +1,98 @@
+# Career-Ops Profile — Rashid Jamal
+# Single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Rashid Jamal"
+  title: "Senior IT Operations Engineer"
+  email: "rashid@ibnjamaal.me"
+  phone: "+971 56 717 0775"
+  location: "Dubai, United Arab Emirates"
+  linkedin: "linkedin.com/in/IbnJamaal"
+  marital_status: "Single"
+  current_company: "myZoi-Financial Inclusion Technologies LLC"
+  languages: "Arabic (fluent), English (fluent), Urdu/Hindi (fluent speaking)"
+
+target_roles:
+  primary:
+    - "IT Manager / IT Operations Manager"
+    - "Head of IT / IT Leadership"
+    - "Senior IT Operations Engineer"
+  secondary:
+    - "Technical Team Lead (IT / Infrastructure)"
+    - "DevOps / Cloud Infrastructure Engineer"
+    - "AI / Automation-leaning IT Infrastructure"
+    - "Workplace / Collaboration IT Lead"
+  archetypes:
+    - name: "IT Manager / IT Leadership"
+      level: "Manager/Head"
+      fit: "primary"
+    - name: "IT Operations / Senior Systems Administrator"
+      level: "Senior"
+      fit: "primary"
+    - name: "Technical Team Lead (IT)"
+      level: "Lead"
+      fit: "secondary"
+    - name: "DevOps / Cloud Infrastructure Engineer"
+      level: "Mid-Senior/Senior"
+      fit: "secondary"
+    - name: "AI / Automation-leaning IT Infrastructure"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Workplace & Collaboration IT Lead"
+      level: "Lead"
+      fit: "secondary"
+
+narrative:
+  headline: "Senior IT Operations Engineer — cloud workplace, identity & automation"
+  exit_story: "15+ years running workplace technology for high-growth tech companies (Talabat, myZoi fintech) — now bridging into AI-enabled IT infrastructure: I run a hardened local AI lab (Llama.cpp, RAG, agent frameworks, n8n) alongside enterprise IT operations."
+  superpowers:
+    - "White-glove C-suite and executive IT support under strict SLAs"
+    - "Identity & access automation: SSO, SCIM, dynamic groups, RBAC, zero-trust"
+    - "Fleet MDM at scale: Jamf Pro, Microsoft Intune, Google Workspace MDM"
+    - "Company-wide AV & broadcast execution (town halls, hybrid events: Neat, Poly, Q-Sys, Bose DSP)"
+    - "AI-enabled automation: n8n workflows, Python scripting, local LLM infrastructure"
+  proof_points:
+    - name: "Local AI Infrastructure Lab"
+      url: ""
+      hero_metric: "Hardened Ubuntu server (TPM, Secure Boot, NIST/PCI-DSS aligned) running Llama.cpp, RAG pipelines, Hermes/OpenClaw agents, n8n on Docker Compose"
+    - name: "Enterprise provisioning automation at myZoi"
+      url: ""
+      hero_metric: "SSO + SCIM with dynamic grouping across the full SaaS stack enforcing RBAC"
+    - name: "Talabat regional endpoint & security fleet"
+      url: ""
+      hero_metric: "Jamf + Intune + Google MDM across regional offices with SentinelOne/ESET/DLP"
+
+compensation:
+  target_range: "AED 20,000 - 35,000+/month by level (managerial/leadership: AED 25,000+)"
+  currency: "AED"
+  minimum: "AED 20,000/month — walk-away floor for any role; AED 25,000/month for managerial/leadership roles"
+  location_flexibility: "Dubai onsite/hybrid; remote from UAE for any market; on-site abroad only with sponsorship + relocation support"
+  # OUTSIDE UAE rule: the package must beat the tax-free UAE equivalent after
+  # local tax and cost-of-living — never less. When evaluating a foreign offer,
+  # convert to net monthly AED-equivalent and compare against the floors above.
+
+location:
+  country: "United Arab Emirates"
+  city: "Dubai"
+  timezone: "GST (UTC+4)"
+  visa_status: "UAE employment visa — authorized to work in the UAE; any new UAE employer must sponsor the visa transfer (routine local process). Can work remotely FROM the UAE for any market. On-site roles outside the UAE require visa sponsorship AND relocation support."
+  authorized_in: ["United Arab Emirates"]
+  needs_sponsorship: true    # for roles outside UAE (and visa transfer for new UAE employers)
+
+language:
+  output: en
+
+spend_tier: standard
+
+scan:
+  extractor: cli   # headless browser-extract.mjs — no browser MCP needed
+
+cv:
+  output_format: "html"
+
+cover_letter:
+  notice_period_days: 90   # 3 months
+  primary_domain: "IT operations / workplace technology"
+
+contact_preferences:
+  preferred_channel: "email"

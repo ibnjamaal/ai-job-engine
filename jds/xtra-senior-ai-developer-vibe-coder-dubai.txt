@@ -1,0 +1,25 @@
+Senior AI Developer / Full-Stack Vibe Coder
+Company: XTRA
+Location: Dubai (In person)
+Pay: AED 40,000 - AED 50,000 per month
+Type: Full-time
+Source: Indeed UAE — https://ae.indeed.com/viewjob?jk=e45da6c948bc48bc
+
+Full job description:
+
+We are seeking an experienced Pro AI Developer & Vibe Coder to build, scale, and automate modern web applications and workflows. If you excel at leveraging modern AI tools (Bolt.ai, Cursor, Claude, custom agents) alongside solid full-stack frameworks to ship high-quality products rapidly, this role is for you. No formal degrees or certifications required — we care strictly about what you can build.
+
+Key Responsibilities:
+- Build, deploy, and maintain full-stack web applications using modern Vibe Coding techniques and AI developer frameworks.
+- Develop automated workflows, web scrapers, data pipelines, and API integrations using Node.js, Python, or Playwright/Puppeteer.
+- Design, customize, and optimize database architectures, landing pages, and web systems (CMS/WordPress/Custom).
+- Integrate generative AI APIs (LLMs, media/image models, multi-agent frameworks) directly into business workflows.
+- Troubleshoot system logic, resolve DNS/hosting/server issues, and manage end-to-end technical deployments.
+
+Core Requirements:
+- Proven Vibe Coding & AI Mastery: Extensive experience using Bolt.ai, Cursor, ComfyUI, HuggingFace, and LLM APIs to build working applications fast.
+- Full-Stack & Web Dev: Strong practical foundation in web development, REST APIs, databases, modern frontend/backend concepts, and automated workflows (Zapier, Power Automate, custom scripts).
+- Problem Solver: Excellent technical troubleshooting skills across hosting, domains, web infrastructure, and system setups.
+- Fluent in English (Arabic is a plus).
+
+To Apply: Please submit your portfolio, GitHub, or links to live projects you have built.
